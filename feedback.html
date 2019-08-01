@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div class="modal-mask">
+    <section class="modal modal-callback">
+      <h2>Мы обязательно вам ответим!</h2>
+      <form class="callback" name="callback" action="https://echo.htmlacademy.ru" method="post">
+        <p class="modal-item">
+          <label for="callback-name" class="visible-hidden">Как вас зовут?</label>
+          <input type="text" name="callback-name" name="callback-name" placeholder="Как вас зовут?">
+        </p>
+        <p class="modal-item">
+          <label for="callback-email" class="visible-hidden">Ваша почта для ответа?</label>
+          <input type="text" name="callback-email" id="callback-email" placeholder="Ваша почта для ответа?">
+        </p>
+        <textarea name="callback-message" rows="8" cols="80" placeholder="Напишите что-нибудь..."></textarea>
+        <button type="submit" class="button callback-submit">Отправить</button>
+      </form>
+      <button type="button" class="modal-close">Закрыть</button>
+    </section>
+  </div>
+</body>
+</html>

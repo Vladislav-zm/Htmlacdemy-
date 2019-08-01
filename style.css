@@ -1,0 +1,329 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+
+  background-color: #849d8f;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.visible-hidden {
+  display: none;
+}
+
+.main-navigation {
+  line-height: 18px;
+}
+
+.site-navigation,
+.user-navigation,
+.anventages-list,
+.footer-social,
+.footer-document{
+  list-style: none;
+}
+
+.main-content p {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.main-content a {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  text-shadow: 0 2px 5px rgba(160, 32, 11, .76);
+  color: #fff;
+  vertical-align: middle;
+
+  background-color: #eb553a;
+  background-image: linear-gradient(to bottom, #f26843 0%, #e74a35 100%);
+  box-shadow: 0 2px 2px rgba(172, 16, 0, .64);
+  border-radius: 30px;
+  border: none;
+}
+
+.slider-list  {
+  list-style: none;
+  text-align: center;
+}
+
+.slider-list h3 {
+  font-size: 60px;
+  line-height: 60.35px;
+  font-weight: bold;
+}
+
+.slide-button {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: bold;
+  padding: 16px 42px 16px 40px;
+}
+
+.special-offer-rasb {
+  background-color: #b20026;
+  background: url("../img/malina-offer.jpg");
+  background-repeat: no-repeat;
+}
+
+.special-offer h3 {
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: bold;
+}
+
+.special-offer p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.special-chocolate {
+  background-color: #b15124;
+  background-image: url("../img/chovolate-offer.jpg");
+  background-repeat: no-repeat;
+}
+
+.want-chocolate{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+
+  padding: 15px 24px 14px 22px;
+}
+
+.want-raspberies {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+
+  padding: 14px 22px 14px 21px;
+}
+
+.catalog img {
+  width: 276px;
+  height: 267px;
+  border-radius: 50%;
+}
+
+.catalog a {
+  border-bottom: 1px solid #9db1a5;
+}
+
+.catalog a:hover,
+.catalog a:focus {
+  color: #ffbc9e;
+  border-bottom: 1px solid #a7a294;
+}
+
+.fast-view {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+
+  padding: 13px 17px;
+}
+
+.anventages-leads {
+  color: #323232;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.advantages {
+  color: #323232;
+  background-color: #f5f5dc;
+  background-image: url("../img/vaflya.png");
+  background-repeat: repeat;
+  border-radius: 15px;
+}
+
+.userfull-information .blog,
+.userfull-information .subscrub{
+  color: #323232;
+}
+
+.blog {
+  background-color: #fff;
+  background-image: url("../img/blog.jpg");
+}
+
+.blog a {
+  color: #323232;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.blog a:hover,
+.blog a:focus {
+  color: #e84d37;
+}
+
+.userfull-information .subscrub {
+  color: #5a5a5a;
+  background-color: #fff;
+  border: 5px solid #fe9e90;
+  background-image: url("../img/podloshka.png") 5 round round;
+  -webkit-border-image: url("../img/mail-sub.svg") 5 round round;
+  width: 560px;
+  height: 220px;
+}
+
+.subscrub input {
+  font: inherit;
+
+  background-color: #fff;
+  border: 1px solid rgba(178, 178, 178, .52);
+  border-radius: 5px;
+
+  padding: 10px 13px;
+  width: 386px;
+}
+
+.subscrub input:hover {
+  border: 2px solid rgba(154, 154, 154, .52);
+  border-radius: 5px;
+}
+
+.subscrub input:focus {
+  border: 2px solid rgba(46, 136, 228, .52);
+  border-radius: 5px;
+}
+
+.subscrub button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+
+  width: 129px;
+  height: 44px;
+}
+
+.map .map-legend-adres {
+  color: #323232;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.map-legend-adres strong{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.map .map-legend-contacts {
+  color: #323232;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.map-legend-contacts strong{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.feedback-form-button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+
+  padding: 13px 28px;
+}
+
+.document-wrapper {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.footer-document {
+  text-align: center;
+}
+
+.footer-document a {
+  border-bottom: 1px solid #9db1a5;
+}
+
+.left li:first-child{
+  font-weight: bold;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.footer-copyright a:last-child{
+  border-bottom: 1px solid #9db1a5;
+}
+
+.modal-mask h2 {
+  color: #323232;
+  font: 24px;
+  line-height: 28px;
+}
+
+/* Табличные стили0 */
+
+.main-header {
+  margin-bottom: 20px;
+  min-height: 70px;
+}
+
+.main-navigation {
+  min-height: 70px;
+}
+
+
+.main-header-logo {
+  width: 154px;
+  height: 64px;
+  display: block;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  min-height: 70px;
+
+  display: flex;
+}
+
+.user-navigation {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  min-height: 70px;
+}
